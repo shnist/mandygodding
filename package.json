@@ -4,7 +4,8 @@
   "description": "Mandy Godding Theatre Arts",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass src/css/index.scss src/css/app.css"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/shnist/mandygodding/issues"
   },
-  "homepage": "https://github.com/shnist/mandygodding"
+  "homepage": "https://github.com/shnist/mandygodding",
+  "devDependencies": {
+    "node-sass": "^3.4.2"
+  }
 }
