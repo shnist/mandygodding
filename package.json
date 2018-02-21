@@ -4,6 +4,7 @@
   "description": "Mandy Godding Theatre Arts",
   "main": "index.js",
   "scripts": {
+    "start": "gulp webserver && npm run watch",
     "sass": "node-sass src/css/index.scss src/css/app.css",
     "watch": "nodemon -e scss -x 'npm run sass'"
   },
@@ -18,6 +19,10 @@
   },
   "homepage": "https://github.com/shnist/mandygodding",
   "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-server-livereload": "^1.9.2",
+    "live-server": "^1.2.0",
     "node-sass": "^3.4.2",
     "nodemon": "^1.9.1"
   }
